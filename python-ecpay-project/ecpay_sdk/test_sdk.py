@@ -17,7 +17,7 @@ class ECPaySDKTest:
         # 動態載入 ECPay SDK
         try:
             # 導入 SDK 的主要類別
-            from sdk.ecpay_payment_sdk import ECPayPaymentSdk
+            from ecpay_payment_sdk import ECPayPaymentSdk
             
             # 初始化 SDK
             self.ecpay = ECPayPaymentSdk(
