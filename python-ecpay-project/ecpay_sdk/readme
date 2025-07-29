@@ -1,0 +1,49 @@
+### Python ECPay SDK 安裝教學:
+https://hackmd.io/@yillkid/H1TXUD9Hex/https%3A%2F%2Fhackmd.io%2F%40yillkid%2FByOehxdLge
+
+🔍 快速檢查指令：
+```python
+# 檢查 Python 版本
+python --version
+# 或
+python3 --version
+
+# 檢查 pip 版本
+pip --version
+
+# 檢查是否有 venv 模組
+python -m venv --help
+
+```
+🔹 啟用虛擬環境:
+```python
+# Windows
+ecpay-env\Scripts\activate
+```
+🔹 從 GitHub 下載 SDK:
+```python
+# 方法一：使用 git clone（推薦）
+git clone https://github.com/ECPay/ECPayAIO_Python.git
+
+# 進入下載的目錄
+cd ECPayAIO_Python
+
+# 查看目錄結構
+ls -la
+```
+🔹 複製 SDK 到專案目錄:
+```python
+# 回到你的專案目錄
+cd ../
+
+# 複製 SDK 檔案到專案中
+cp -r ECPayAIO_Python/sdk ./ecpay_sdk
+
+# 查看複製結果
+ls -la ecpay_sdk/
+```
+🔹 執行測試程式:
+```py
+# 確保在虛擬環境中
+python test_sdk.py
+```
